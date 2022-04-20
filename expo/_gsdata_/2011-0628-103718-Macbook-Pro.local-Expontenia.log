@@ -1,0 +1,30 @@
+----- 2011-06-28 10:37:23: Job 'Expontenia': ANALYSIS started by  on computer 'Macbook-Pro.local' (GoodSync 1.6.0.0 on ) -----
+Expontenia: /Users/vailancio/Sites/expo <-> smb://SERVER/htdocs/expo (/Volumes/expo), SavePrevVers=30d, TmpDest, EstReq, CopyLocked, FileLinksDrill, CaseSens, Reconnect=3, ChangeLimit=10
+Exclude licens*.rfo|cache.rfo|mru.rfo|mpp*.rfo|RoboForm Online Account.rfp|/System Volume Information|Thumbs.db|.DS_Store 
+Left: Read State File /Users/vailancio/Sites/expo/_gsdata_/_file_state._gs
+Left: Files: 71 (excluded 7). Folders: 12 (excluded 1). /dev/disk0s2 HFS, Free: 29855M, Total: 249715M
+Right: Read State File /Volumes/expo/_gsdata_/_file_state._gs
+Right: Files: 70 (excluded 5). Folders: 12 (excluded 1). , Free: 1901M, Total: 20003M
+On disk  space required for sync is 753K, you have 1901M
+On disk  space required for sync is 753K, you have 1901M
+Changes: 9, Conflicts: 0, CopyTime: 0, CopyState: 0, Errors: 0
+Left to Right: Copy File: 8 Delete File: 1 
+----- 2011-06-28 10:37:23: Analysis Completed. Time 00:00:05, Speed: 18 files/s -----
+
+===== 2011-06-28 10:37:26: Job 'Expontenia': SYNC started by  on computer 'Macbook-Pro.local' =====
+Expontenia: /Users/vailancio/Sites/expo <-> smb://SERVER/htdocs/expo (/Volumes/expo), SavePrevVers=30d, TmpDest, EstReq, CopyLocked, FileLinksDrill, CaseSens, Reconnect=3, ChangeLimit=10
+Fraction of files changed is low enough to perform Auto Sync: 9% (9 / 92) < 10%
+Delete File '/Volumes/expo/contact.html'
+Copy Over '/Users/vailancio/Sites/expo/expo.esproj/Project.espressostorage' -> '/Volumes/expo/expo.esproj/Project.espressostorage'
+Copy Over '/Users/vailancio/Sites/expo/expo.esproj/user.vailancio.espressostorage' -> '/Volumes/expo/expo.esproj/user.vailancio.espressostorage'
+Copy Over '/Users/vailancio/Sites/expo/apple-touch-icon.png' -> '/Volumes/expo/apple-touch-icon.png'
+Copy New '/Users/vailancio/Sites/expo/contact.php' -> '/Volumes/expo/contact.php'
+Copy New '/Users/vailancio/Sites/expo/exponentia.zip' -> '/Volumes/expo/exponentia.zip'
+Copy Over '/Users/vailancio/Sites/expo/favicon.ico' -> '/Volumes/expo/favicon.ico'
+Copy Over '/Users/vailancio/Sites/expo/humans.txt' -> '/Volumes/expo/humans.txt'
+Copy Over '/Users/vailancio/Sites/expo/index.php' -> '/Volumes/expo/index.php'
+Save State File /Users/vailancio/Sites/expo/_gsdata_/_file_state._gs
+Save State File /Volumes/expo/_gsdata_/_file_state._gs
+Items Synced OK: 9, Errors: 0
+===== 2011-06-28 10:37:27: Sync Completed. Time: 00:00:04, Speed: 204K/s =====
+

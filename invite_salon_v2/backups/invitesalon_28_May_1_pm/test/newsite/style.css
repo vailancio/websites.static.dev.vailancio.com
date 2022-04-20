@@ -1,0 +1,50 @@
+/*
+	RESET & BASIC SETUP
+*/
+* 							{ margin: 0; padding: 0; }
+body 						{ font-size: 62.5%; 
+							  font-family: 'Lucida Grande', Helvetica, sans-serif;
+							  background: #121212; padding: 20px; color: #999; }
+/*
+	STRUCTURE
+*/
+.post 						{ width: 500px; }
+
+
+/*
+	TYPOGRAPHY
+*/
+p							{ font-size: 1.2em; margin: 0 0 15px 0; }
+h1							{ font-family: Helvetica, sans-serif; font-size: 4.0em;
+							  letter-spacing: -1px; color: #ccc; }
+h2							{ font-family: Helvetica, sans-serif; font-size: 3.0em;
+							  letter-spacing: -1px; color: #ccc; }
+a							{ color: #0066cc; }
+a:hover						{ color: #ccc; }
+
+nav.menu {
+	margin:0;
+	padding:0;
+	list-style-type:none;
+	float:right;
+	margin-top:40px;
+}
+nav.menu a {
+	display:block;
+	padding: 10px 10px;
+	height:40px;
+	line-height:40px;
+	color:#fff;
+	text-decoration: none;
+	float:left;
+}
+nav.menu li {
+	display:inline;/*IE fix*/
+}
+nav.menu li a:hover{
+	background:url(../img/menu_back.png) no-repeat center top;
+}
+nav.menu li a:active{
+	background:url(../img/menu_back.png) no-repeat center top;
+}
+html {overflow-y: hidden;}

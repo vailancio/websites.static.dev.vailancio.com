@@ -1,0 +1,33 @@
+body
+{
+	font-family:Tahoma;
+	font-size:12px;
+	line-height:1em;
+	background-color: #000;
+}
+
+.main
+{
+    width:100%;
+    }
+    
+.container
+{
+	padding-left:10px;
+    height: 1630px;
+}
+.salon-gallery
+{
+padding-top: 20px;
+margin:0 auto;
+width:600px;    
+}
+
+.salon-container
+{
+	background:#000;
+	padding-left:10px;
+    height:900px;
+    width:960px;
+    margin: 0 auto;
+}

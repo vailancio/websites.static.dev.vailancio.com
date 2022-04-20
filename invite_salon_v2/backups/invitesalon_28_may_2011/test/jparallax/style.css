@@ -1,0 +1,7 @@
+#parallax {
+	background:#ccc; 
+	position:absolute; 
+	overflow:hidden;
+	width:700px; 
+	height:300px; 
+}

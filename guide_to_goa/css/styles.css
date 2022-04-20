@@ -1,0 +1,55 @@
+/* ===== Primary Styles ========================================================
+   Author:Vailancio Rodrigues
+   Email:vailancio248@gmail.com
+   ========================================================================== */
+
+html{-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;font:100%;font-family:Georgia, "Times New Roman", Times, serif;text-align:left}
+body{line-height:1.4;background:#3ac5f8 url(../img/wh-bg-gr.png) repeat-y center top;font-size:.8em;font-smooth:always;font-style:normal;margin:0}
+::-moz-selection{color:#fff;text-shadow:none;background-color:#dde3e3}
+::selection{background:#dde3e3;color:#fff;text-shadow:none}
+a{color:#3ac5f8;text-decoration:none}
+a:hover{color:#3ac5f8;text-decoration:underline}
+a:focus{outline:thin dotted}
+a:hover,a:active{outline:0}
+p,ul li{font-size:1em;line-height:1.8em;font-weight:500;margin:6px 0}
+ul{list-style:none}
+strong{font-weight:700}
+strong a{text-decoration:none}
+h2{font-size:2em;line-height:1.2em;font-style:italic;padding-bottom:6px}
+.blue,a.blue,strong.blue a{color:#3ac5f8}
+.red,a.red,strong.red a{color:#d72335}
+.orange,a.orange,strong.orange a{color:#fda64b}
+.container{position:relative;z-index:1000}
+.wrapper,.wrap2{position:relative;background:#f5f5f5;margin:0 auto}
+.wrapper{width:965px}
+.wrap2{width:830px}
+.header{margin-top:-2px;position:relative;z-index:3000;padding:0}
+.container.header .row .text h1 a{background:#f5f5f5 url(../img/h1.png) no-repeat left top;display:block;position:relative;text-indent:-9999px;height:142px;margin-bottom:40px}
+#bar{height:auto;width:auto;position:fixed;top:0;background:transparent url(../img/bar-bg.png) repeat-x left bottom;z-index:2000;margin:0;padding:0}
+#bar div.row{background:#242424;height:126px;width:965px;position:relative;top:-8px;margin:0;padding:0}
+#bar div.row .move-top{display:block;position:relative;line-height:126px}
+.logos ul{list-style:none;margin:0 0 0 28%;padding:0}
+.logos ul li{margin:0;padding:0}
+.logos ul li a{position:relative;float:left;display:block;line-height:126px;width:auto}
+.logos ul li img{position:relative;margin:auto 30px}
+#bar div.row .move-top img{margin:18px}
+.logos ul li img,#bar div.row .move-top img{vertical-align:middle}
+li.ppt-logo a{background:transparent url(../img/seperator.jpg) no-repeat right center}
+.row.header .text p,.row.header .text h1{margin-right:12%}
+.row{background:#f5f5f5 url(../img/bg-gr.jpg) no-repeat center top}
+.row .img img{position:relative;display:block;margin-left:-50%;left:58%;padding:15%}
+.row .text{padding:50px 0}
+.row .text ul,.row .text p{margin-right:21%}
+.row .eightcol p,.row .eightcol h2,.row .eightcol h1,.row .eightcol ul{margin-left:7%}
+#row1{padding:40px 0 10px}
+#row1 .text h1,#row1 .text p{margin-left:40px;margin-right:14%;padding-right:25px}
+#row1 .img img{left:56%;top:18px;padding:5%}
+#row6 .text ul li{border-bottom:1px solid #d5d5d5;padding-bottom:14px;margin:15px 0 0}
+#row6 .text ul li:last-child,#row6 .text ul li.li-last-child{padding-bottom:0;border-bottom:none}
+#row3 .img img{top:12px}
+#row6 .img img{top:60px}
+#row7 .img img{top:-15px}
+.footer{padding:20px 0 30px}
+.footer .text p{font-size:1.5em;line-height:1.6em}
+.footer .text h1,.footer .text p{margin-right:10.5%}
+#row4 .img img,#row5 .img img{top:9px}

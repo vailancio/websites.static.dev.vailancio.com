@@ -1,0 +1,1 @@
+jQuery(function(a){a("a.move-top").click(function(){a.scrollTo(0,1500);return false})});$(window).bind("scroll",function(a){if($(document).scrollTop()<=530){$("#bar").css({display:"none"})}else{$("#bar").css({display:"block"})}})

@@ -1,0 +1,102 @@
+/*Designed and coded by
+Vailancio Rodrigues
+vailancio248@gmail.com */
+body{font-size:11pt; font-family:Helvetica, Arial, sans-serif; padding:26px 0 20px; background: #CCC;}
+
+a{color:#fff; text-decoration:none}
+
+a:hover{text-decoration:underline}
+
+h1{font-family:Georgia,serif; font-weight:normal; text-align:center}
+
+h2{text-align:left; color:#333333;}
+
+p{overflow:hidden; text-align:left}
+li{margin-left:0}
+strong{color: #403d3d
+}
+em{color:#333; font-style:italic; font-size:0.8em}
+/*---background--imags---*/
+#bg-image{width:100%; position:fixed; top:-30px; left:0; z-index:-2000}
+/*header*/
+#header{background:url(../img/logo.png) no-repeat 0 0; height:65px}
+#header p{color:#FFF; width:570px; font-weight:bold; margin-top:74px}
+/*---nav----*/
+#nav{background:url(../img/header-bg.png) no-repeat right; height:185px; margin-top:-50px; position:relative}
+#menu{margin:0; padding:152px 0 0 0}
+#menu li{float:left; margin-right:2px; list-style:none outside none; color:#FFF}
+#menu a:hover{text-decoration:underline}
+#menu a{background:url(../img/menu-right.png) scroll no-repeat; height:30px; padding:0 11px 5px 0; display:block; float:left}
+#menu li a span{background:url(../img/menu-left.png) no-repeat; display:block; height:30px; float:left; padding:5px 3px 0 14px; cursor:pointer}
+#menu li a:hover{text-decoration:underline}
+/*---buttons----*/
+#menu li.page1 a{background-position:right 0}
+#menu li.page2 a{background-position:right -39px}
+#menu li.page3 a{background-position:right -156px}
+#menu li.page4 a{background-position:right -78px}
+#menu li.page5 a{background-position:right -117px}
+#menu li.page6 a{background-position:right -156px}
+#menu li.page1 a span{background-position:left -117px}
+#menu li.page2 a span{background-position:left -156px}
+#menu li.page4 a span{background-position:left -39px}
+#menu li.page5 a span{background-position:left -78px}
+#menu li.page6 a span{background-position:left 0}
+/*--Edits-- 2013-- */
+#menu li.page3 a{background-position:right -78px}
+#menu li.page3 a span{background-position:left -39px}
+/*-----content-----*/
+.container_12 {margin-bottom:10px;}
+.featured{background:url(../img/fea-bg.jpg) repeat-x #49AA43; min-height:227px; height:auto; color:#fff; text-align:left}
+.featured-blue{background:#1782CD url(../img/fea-blue.jpg) repeat-x; min-height:60px}
+.featured-grey{background:#888 url(../img/fea-grey.jpg) repeat-x; min-height:60px}
+.featured-red{background:#ED4234 url(../img/fea-red.jpg) repeat-x; min-height:60px}
+.featured-orange{background:#F78C13 url(../img/fea-orange.jpg) repeat-x; min-height:60px}
+.content{background:#FFF; padding:0; margin:0}
+.featured p{}
+#philosophy{background:url(../img/h2img1.png) no-repeat 30px 27px}
+#objective{background:url(../img/h2img2.png) no-repeat 30px 27px}
+#executive{background:url(../img/h2img3.png) no-repeat 30px 27px}
+#gallery{background:url(../img/h2img4.png) no-repeat 30px 27px}
+#contact{background:url(../img/h2img5.png) no-repeat 30px 27px}
+#objective, #philosophy, #executive, #gallery, #contact{position:relative; height:85px; width:410px; display:block; cursor:pointer; text-indent:-9999px}
+.grid_6 p{padding:0 0 0 30px}
+.readmore a{display:block; font-style:italic; font-size:0.85em; margin-top:5px; padding:1px; width:70px; text-decoration:none; border:1px #68C962 solid; text-align:center}
+.readmore a:hover{background:#68C962}
+#text-container{background:#FFF; min-height:20px; color: #535351;
+}
+#text-container p{margin:20px 30px 0 30px; font-weight: 500;
+}
+#text-container p a{color: #333;}
+#text-container li{list-style:circle}
+#team-left{padding:30px 50px 10px 60px; width:400px; float:left}
+#team-right{float:left; padding:30px 40px 10px 50px}
+#footer{background:#333; height:82px; font-size:0.76em}
+#footer p, #footer p a, #footer a{color:#CFCFCF; font-size:9pt; line-height:1.4em}
+#footer a{text-decoration:underline}
+#footer p{margin:10px 28px 10px 28px}
+/*---contact form---*/
+div#email-form{width:460px; padding-left:3px; /* for later use*/position:relative; z-index:3; margin-left:20px}
+div#email-form p label{color:#423a3a; display:block; float:left; font-size:100%; line-height:22px; width:80px}
+div#email-form p input.textbox, div.form p textarea{background:#fff none repeat scroll 0 0; border:1px solid #797979; color:#817d7d; font-size:90%; width:174px; padding-top:5px; padding-right:8px; padding-bottom:5px; padding-left:8px}
+div#email-form input.send-button{margin-right:5px}
+div#email-form p textarea{background:#fff none repeat scroll 0 0; border:1px solid #797979; color:#817d7d; font-size:90%; height:130px; width:300px; padding:5px 8px 6px}
+div#email-form input.send-button{background:#39383a none repeat scroll 0 0; border:1px solid #797979; color:#CCC; cursor:pointer; font-size:90%; height:24px; padding-top:2px; padding-bottom:4px; width:75px; margin-left:110px; margin-top:15px;}
+div#email-form input.send-button:hover{background:#1782CD none repeat scroll 0 0; color:#fff}
+#verify{background-image:url(../img/capa.png); background-repeat:no-repeat; z-index:5; height:24px; width:50px}
+.error{border:1px solid #EB292F; background-color:#ED4234; color:#FFF; padding:4px; margin-left:110px; width:181px; margin-bottom:5px; margin-top:3px;}
+#message h2 { margin-left:30px;}
+/*----gallery---*/
+.galleria{list-style:none;}
+.galleria li{display:block;width:80px;height:80px;overflow:hidden;float:left;margin:0 10px 10px 0;border:3px double #EEEEEE;}
+.galleria li a{display:none}
+.galleria li div{position:absolute;display:none;top:0;left:300px}
+.galleria li div img{cursor:pointer}
+.galleria li.active div img,.galleria li.active div{display:block; border:#666;}
+.galleria li img.thumb{cursor:pointer;top:auto;left:auto;display:block;width:auto;height:auto}
+.caption{display:block; position: absolute; width:285px; top:720px; font-size:1.1em; padding:10px; margin-left: 650px;}
+.galleria_wrapper {float:left; margin-left:30px; margin-bottom:40px; margin-right:20px;}
+.galleria_wrapper img {border:5px double #EEEEEE}
+* html .galleria li div span{width:400px} /* MSIE bug */
+#gallery-nav {height:30px; width:270px; float:right; position:relative; bottom:218px; padding-top:5px; padding-bottom:5px;}
+#gallery-nav a {background:#FFF; border: #bbb 1px solid; padding:2px 5px 3px 5px; margin-left:4px; margin-right:4px; text-decoration:none;}
+#gallery-nav a:hover {color:#fff; background:#bbb;}

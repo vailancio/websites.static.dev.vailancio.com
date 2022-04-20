@@ -1,0 +1,107 @@
+----- 2011-06-24 11:50:28: Job 'Expontenia': ANALYSIS started by User on computer 'Macbook-Pro.local' (GoodSync 1.6.0.0 on ) -----
+Expontenia: /Users/vailancio/Sites/expo <-> smb://SERVER/htdocs/expo (/Volumes/expo), SavePrevVers=30d, TmpDest, EstReq, CopyLocked, FileLinksDrill, CaseSens, Reconnect=3, ChangeLimit=10
+Exclude licens*.rfo|cache.rfo|mru.rfo|mpp*.rfo|RoboForm Online Account.rfp|/System Volume Information|Thumbs.db|.DS_Store 
+Left: Read State File /Users/vailancio/Sites/expo/_gsdata_/_file_state._gs
+Left: State file does not exist: /Users/vailancio/Sites/expo/_gsdata_/_file_state._gs
+Left: No State File found, New State will be built
+Left: Files: 70 (excluded 5). Folders: 12 (excluded 0). /dev/disk0s2 HFS, Free: 33931M, Total: 249715M
+Right: Read State File /Volumes/expo/_gsdata_/_file_state._gs
+Right: State file does not exist: /Volumes/expo/_gsdata_/_file_state._gs
+Right: No State File found, New State will be built
+Right: Files: 70 (excluded 5). Folders: 12 (excluded 0). , Free: 3437M, Total: 20003M
+On disk  space required for sync is 12K, you have 3437M
+On disk  space required for sync is 12K, you have 3437M
+Changes: 3, Conflicts: 0, CopyTime: 0, CopyState: 79, Errors: 0
+Left to Right: Copy File: 3 
+----- 2011-06-24 11:50:28: Analysis Completed. Time 00:00:03, Speed: 29 files/s -----
+
+===== 2011-06-24 11:50:38: Job 'Expontenia': SYNC started by User on computer 'Macbook-Pro.local' =====
+Expontenia: /Users/vailancio/Sites/expo <-> smb://SERVER/htdocs/expo (/Volumes/expo), SavePrevVers=30d, TmpDest, EstReq, CopyLocked, FileLinksDrill, CaseSens, Reconnect=3, ChangeLimit=10
+Sync State: /build
+Sync State: /build/config
+Sync State: /build/config/default.properties
+Sync State: /build/config/project.properties
+Sync State: /build/tools
+Sync State: /build/tools/optipng-0.6.4-exe
+Sync State: /build/tools/optipng-0.6.4-exe/LICENSE.txt
+Sync State: /build/tools/optipng-0.6.4-exe/optipng.exe
+Sync State: /build/tools/ant-contrib-1.0b3.jar
+Sync State: /build/tools/htmlcompressor-0.9.9.jar
+Sync State: /build/tools/jpegtran.exe
+Sync State: /build/tools/yuicompressor-2.4.2.jar
+Sync State: /build/build.xml
+Sync State: /build/createproject.sh
+Sync State: /build/runbuildscript.bat
+Sync State: /css
+Sync State: /css/handheld.css
+Copy Over '/Users/vailancio/Sites/expo/css/ie.css' -> '/Volumes/expo/css/ie.css'
+Sync State: /css/style.css
+Sync State: /expo.esproj
+Copy Over '/Users/vailancio/Sites/expo/expo.esproj/Project.espressostorage' -> '/Volumes/expo/expo.esproj/Project.espressostorage'
+Copy Over '/Users/vailancio/Sites/expo/expo.esproj/user.vailancio.espressostorage' -> '/Volumes/expo/expo.esproj/user.vailancio.espressostorage'
+Sync State: /img
+Sync State: /img/.gitignore
+Sync State: /img/00_Exponentia_Homepage.png
+Sync State: /img/01_Exponentia_team.jpg
+Sync State: /img/02_Exponentia_partner.jpg
+Sync State: /img/03_Exponentia_invest.jpg
+Sync State: /img/04_Exponentia_workwithus.jpg
+Sync State: /img/05_Exponentia_innews.jpg
+Sync State: /img/06_Exponentia_contact.jpg
+Sync State: /img/background.jpg
+Sync State: /img/blackimg.jpg
+Sync State: /img/blog_back.jpg
+Sync State: /img/contact_bac.jpg
+Sync State: /img/contact_img01.jpg
+Sync State: /img/gradient.png
+Sync State: /img/img12.jpg
+Sync State: /img/img13.jpg
+Sync State: /img/img16.jpg
+Sync State: /img/img3.png
+Sync State: /img/logo.jpg
+Sync State: /img/post_thumb.jpg
+Sync State: /img/social.jpg
+Sync State: /img/team.png
+Sync State: /js
+Sync State: /js/libs
+Sync State: /js/libs/dd_belatedpng.js
+Sync State: /js/libs/jquery-1.5.1.js
+Sync State: /js/libs/jquery-1.5.1.min.js
+Sync State: /js/libs/modernizr-1.7.min.js
+Sync State: /js/mylibs
+Sync State: /js/mylibs/.gitignore
+Sync State: /js/plugins.js
+Sync State: /js/script.js
+Sync State: /test
+Sync State: /test/qunit
+Sync State: /test/qunit/qunit.css
+Sync State: /test/qunit/qunit.js
+Sync State: /test/index.html
+Sync State: /test/tests.js
+Sync State: /.gitignore
+Sync State: /.htaccess
+Sync State: /404.html
+Sync State: /apple-touch-icon-114x114-precomposed.png
+Sync State: /apple-touch-icon-57x57-precomposed.png
+Sync State: /apple-touch-icon-72x72-precomposed.png
+Sync State: /apple-touch-icon-precomposed.png
+Sync State: /apple-touch-icon.png
+Sync State: /blog.html
+Sync State: /contact.html
+Sync State: /crossdomain.xml
+Sync State: /favicon.ico
+Sync State: /humans.txt
+Sync State: /ie-css3.htc
+Sync State: /index.html
+Sync State: /invest.html
+Sync State: /news.html
+Sync State: /partner.html
+Sync State: /robots.txt
+Sync State: /team.html
+Sync State: /work.html
+Initialize _saved_ folder tracking in the state: /Users/vailancio/Sites/expo/_gsdata_/_saved_
+Save State File /Users/vailancio/Sites/expo/_gsdata_/_file_state._gs
+Save State File /Volumes/expo/_gsdata_/_file_state._gs
+Items Synced OK: 82, Errors: 0
+===== 2011-06-24 11:50:39: Sync Completed. Time: 00:00:03, Speed: 442K/s =====
+

@@ -1,0 +1,17 @@
+#row1 .sevencol{
+	width: 54%;
+}
+.logos ul{
+	height: auto;
+}
+.logos li{
+	width: 150px;
+	height: 127px;
+	float: left;
+	padding-top: 20px;*/
+}
+.logos li a img{
+	margin:0 auto;
+	display: none;/*Logos hidden for temp*/
+	position: relative;
+}

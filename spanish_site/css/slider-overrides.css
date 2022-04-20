@@ -1,0 +1,34 @@
+/***--Slider Customization ***/
+#featured{
+overflow:hidden;
+}
+.bx-wrapper{
+margin:0 auto;
+}
+.bx-wrapper .bx-viewport{
+/*box-shadow*/
+-webkit-box-shadow:none;
+   -moz-box-shadow:none;
+        box-shadow:none;
+border:none;
+left:0;
+}
+.bx-controls{
+position:relative;
+margin-top:-29px;
+}
+.bx-wrapper .bx-pager{
+padding-top:19px;
+}
+.bx-controls .bx-pager{
+background:transparent url('../images/slider-control-bg.png') no-repeat center 11px;
+}
+.bx-wrapper .bx-pager.bx-default-pager a{
+margin:0 2px;
+background:url("../images/dotsinactive.png") no-repeat center;
+width:11px;
+height:11px;
+}
+.bx-wrapper .bx-pager.bx-default-pager a:hover, .bx-wrapper .bx-pager.bx-default-pager a.active{
+background:url("../images/dotsactive.png") no-repeat center;
+}

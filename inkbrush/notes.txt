@@ -1,0 +1,4 @@
+Please do not update or change jQuery v 1.3.2.
+Resize plugin does not work.
+Height css prop does not work on .page element. Have to use min-height
+Do not give width in percentage for page widths. Will not work.

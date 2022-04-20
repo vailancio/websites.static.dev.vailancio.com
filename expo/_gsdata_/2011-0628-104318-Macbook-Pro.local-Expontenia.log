@@ -1,0 +1,17 @@
+----- 2011-06-28 10:43:22: Job 'Expontenia': ANALYSIS started by  on computer 'Macbook-Pro.local' (GoodSync 1.6.0.0 on ) -----
+Expontenia: /Users/vailancio/Sites/expo <-> smb://SERVER/htdocs/expo (/Volumes/expo), SavePrevVers=30d, TmpDest, EstReq, CopyLocked, FileLinksDrill, CaseSens, Reconnect=3, ChangeLimit=10
+Exclude licens*.rfo|cache.rfo|mru.rfo|mpp*.rfo|RoboForm Online Account.rfp|/System Volume Information|Thumbs.db|.DS_Store 
+Left: Read State File /Users/vailancio/Sites/expo/_gsdata_/_file_state._gs
+Left: Files: 139 (excluded 14). Folders: 26 (excluded 1). /dev/disk0s2 HFS, Free: 29852M, Total: 249715M
+Right: Read State File /Volumes/expo/_gsdata_/_file_state._gs
+Right: Files: 71 (excluded 5). Folders: 14 (excluded 1). , Free: 1900M, Total: 20003M
+On disk  space required for sync is 2600K, you have 1900M
+On disk  space required for sync is 2600K, you have 1900M
+Changes: 82, Conflicts: 0, CopyTime: 0, CopyState: 0, Errors: 0
+Left to Right: Copy File: 81 Delete File: 1 
+----- 2011-06-28 10:43:22: Analysis Completed. Time 00:00:04, Speed: 45 files/s -----
+
+===== 2011-06-28 10:43:25: Job 'Expontenia': SYNC started by  on computer 'Macbook-Pro.local' =====
+Expontenia: /Users/vailancio/Sites/expo <-> smb://SERVER/htdocs/expo (/Volumes/expo), SavePrevVers=30d, TmpDest, EstReq, CopyLocked, FileLinksDrill, CaseSens, Reconnect=3, ChangeLimit=10
+45% (82 / 182) files have changed, more than a threshold of 10%. So the job will not synchronize automatically.
+
